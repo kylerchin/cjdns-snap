@@ -1,7 +1,11 @@
-name: # the name of the snap
-version: # the version of the snap
+name: # cjdns
+version: # 19.1
 # The vendor for the snap (replace 'Vendor <email@example.com>')
-vendor: Vendor <email@example.com>
-summary: # 79 char long summary
-description: # A longer description for the snap
-icon: # A path to an icon for the package
+vendor: Vendor <kylerschin@gmail.com>
+summary: # Public Key cryptography Ipv6 Decentralized Mesh Network
+description: # Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
+icon: # 
+
+parts:
+  cjdns:
+
